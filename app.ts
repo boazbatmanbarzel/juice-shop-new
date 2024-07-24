@@ -7,3 +7,5 @@ require('./lib/startup/validateDependencies')().then(() => {
   const server = require('./server')
   server.start()
 })
+
+console.log (AWS_SECRET_KEY : wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY)
